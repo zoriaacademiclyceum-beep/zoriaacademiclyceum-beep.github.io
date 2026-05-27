@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статут | Зорянський академічний ліцей</title>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&family=Plus+Jakarta+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <!-- НАВІГАЦІЯ -->
+    <nav>
+        <div style="font-family: 'Unbounded'; font-weight: 900; letter-spacing: -1px;">
+            <a href="index.html" style="color: inherit; text-decoration: none;">Зорянський академічний ліцей</a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html#profiles">Профілі</a>
+            <a href="index.html#schedule">Розклад</a>
+            <a href="index.html#gallery">Галерея</a>
+            <a href="index.html#prozorist">Прозорість</a>
+            <a href="index.html#admission">Вступ</a>
+        </div>
+    </nav>
+
+    <!-- ГОЛОВНИЙ БЛОК -->
+    <header class="statut-hero">
+        <h1 style="font-family: 'Unbounded'; font-size: clamp(2rem, 5vw, 3.5rem); margin: 0 0 10px 0;">СТАТУТ ЗАКЛАДУ</h1>
+        <p style="color: var(--math-neon); font-weight: 600; letter-spacing: 1px;">Електронний перегляд документа</p>
+    </header>
+
+    <!-- ІНТЕРАКТИВНИЙ ПЕРЕГЛЯД PDF -->
+    <main class="pdf-container">
+        <!-- 
+          УВАГА: Заміни "documents/statut.pdf" на реальний шлях до твого PDF-файлу.
+          Наприклад, якщо файл лежить в тій же папці, напиши просто src="statut.pdf"
+        -->
+        <iframe src="Статут 2026 Зорянський академічний ліцей (1).pdf" class="pdf-viewer">
+            <div class="pdf-fallback">
+                <p>Ваш браузер не підтримує вбудований перегляд PDF.</p>
+                <a href="documents/statut.pdf" target="_blank">Відкрити документ у новому вікні ↗</a>
+            </div>
+        </iframe>
+    </main>
+
+    <!-- ПІДВАЛ -->
+    <footer>
+        <p><strong>Зорянський academic ліцей Зорянської сільської ради</strong></p>
+        <p style="margin: 10px 0; color: #64748b;">📍 с. Зоря, вул. Єдности, 3 | ✉️ zoria.academic.lytseum@gmail.com</p>
+        <p>© 2026 Всі права захищено</p>
+    </footer>
+
+</body>
+</html>
